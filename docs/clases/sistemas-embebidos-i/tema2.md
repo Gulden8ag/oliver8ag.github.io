@@ -71,7 +71,6 @@ int main() {
 
 ## Imágenes y Diagramas
 
-
 ---
 
 ## Notas y Observaciones

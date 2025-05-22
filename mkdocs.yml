@@ -25,21 +25,28 @@ theme:
 
 # Define navigation structure
 nav:
+  - Home: "index.md"
   - Clases:
       - Sistemas Embebidos I:
-          - Tema 1: "clases/sistemas-embebidos-i/tema1.md"
-          - Tema 2: "clases/sistemas-embebidos-i/tema2.md"
-          - etc:    "clases/sistemas-embebidos-i/etc.md"
-      - Sistemas Embebidos II:        "clases/sistemas-embebidos-ii/index.md"
+            - Tema 1: "clases/sistemas-embebidos-i/tema1.md"
+            - Tema 2: "clases/sistemas-embebidos-i/tema2.md"
+      - Sistemas Embebidos II: 
+            - Tema 1: "clases/sistemas-embebidos-ii/tema1.md"
       - Robotica Movil:              
             - Instalar ROS: "clases/robotica-movil/tema1.md"
             - Crear paqueteria ROS: "clases/robotica-movil/tema2.md"
-      - Robotica Articulada:         "clases/robotica-articulada/index.md"
-      - Proyectos de Ingenieria 1:   "clases/proyectos-ingenieria-1/index.md"
-      - Introduccion a la mecatronica: "clases/introduccion-mecatronica/index.md"
-      - Produccion Electronica:      "clases/produccion-electronica/index.md"
-      - Temas Selectos Ing Mecatronica: "clases/temas-selectos-im/index.md"
-      - Fab Academy:                "clases/fab-academy/index.md"
+      - Robotica Articulada:         
+            - Tema 1: "clases/robotica-articulada/tema1.md"
+      - Proyectos de Ingenieria 1:   
+            - Tema 1: "clases/proyectos-ingenieria-1/tema1.md"
+      - Introduccion a la mecatronica: 
+            - Tema 1: "clases/introduccion-mecatronica/tema1.md"
+      - Produccion Electronica:      
+            - Tema 1: "clases/produccion-electronica/tema1.md"
+      - Temas Selectos Ing Mecatronica: 
+            - Tema 1: "clases/temas-selectos-im/tema1.md"
+      - Fab Academy:                
+            - Tema 1: "clases/fab-academy/tema1.md"
   - Tutoriales:  
      - Maquinas: 
           - Laser: "tutoriales_Laser.md"
@@ -52,14 +59,13 @@ nav:
           - Mods: "tutoriales_mods.md"
   - Proyectos:   
       - AMR: 
-          -contacto: "contacto_amr.md"
-          -programacion: "programacion_amr.md"
-          -diseno: "diseno_amr.md"
+          - contacto: "proyectos/amr/contacto.md"
+          - programacion: "proyectos/amr/programacion.md"
+          - diseno: "proyectos/amr/diseno.md"
       - Scada: 
-          -contacto: "contacto_amr.md"
-          -programacion: "programacion_amr.md"
-          -diseno: "diseno_amr.md"
+          - contacto: "proyectos/scada/contacto.md"
+          - programacion: "proyectos/scada/programacion.md"
+          - diseno: "proyectos/scada/diseno.md"
   - FAQs:        "faqs.md"
-  - Recursos:    "recursos.md"
 
    

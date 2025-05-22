@@ -75,8 +75,6 @@ int main() {
 
 ## Imágenes y Diagramas
 
-![Descripción de diagrama](../../images/<nombre-diagrama>.png)
-resentación (PDF)](../../resources/<archivo>.pdf)
 - [Documentación oficial](https://enlace.oficial)
 - [Repositorio GitHub](https://github.com/usuario/proyecto)
 
