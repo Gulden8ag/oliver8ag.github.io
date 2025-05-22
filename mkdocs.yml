@@ -19,6 +19,18 @@ markdown_extensions:
 theme:
   name: material
   highlightjs: true 
+  palette:
+      - scheme: slate
+        toggle:
+            icon: material/weather-sunny
+            name: Dark mode
+        primary: red
+
+      - scheme: default
+        toggle:
+            icon: material/weather-night
+            name: Light mode
+        primary: red
   features:
     - content.code.copy
     - content.tooltips
