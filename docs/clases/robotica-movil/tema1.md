@@ -101,19 +101,26 @@ sudo apt install ros-jazzy-desktop
 
 ## 5. Verifica instalacion con un ejemplo
 
+Primero configuramremos el entorno, añade al archivo de inicio (~/.bashrc) la carga automática de los comandos de ROS cada vez que abres la terminal.
+
+```bash
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
 Para esta prueba necesitaras dos terminales porque lo que abre una segunda terminal.
 
 En una terminal vamos a correr un codigo sencillo en C++ llamado talker:
 
+
+
 ```bash
-source /opt/ros/jazzy/setup.bash
 ros2 run demo_nodes_cpp talker
 ```
 
 En otra terminal vamos correr un codigo en python llamado Listener:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
 ros2 run demo_nodes_py listener
 ```
 

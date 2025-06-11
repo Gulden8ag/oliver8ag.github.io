@@ -71,6 +71,13 @@ git clone <repo_URL>
 ```
 regresaremos a nuestra carpeta dev_ws utilizando `cd ..` y compilaremos nuestro paquete.
 
+hay que instalar colcon
+```bash
+sudo apt update
+sudo apt install python3-colcon-common-extensions
+
+```
+luego compilamos
 ```bash
 colcon build --symlink-install
 ```

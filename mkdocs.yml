@@ -47,8 +47,10 @@ nav:
       - Robotica Movil:              
             - Instalar ROS: "clases/robotica-movil/tema1.md"
             - Crear paqueteria ROS: "clases/robotica-movil/tema2.md"
+            - Cmds Comunes ROS: "clases/robotica-movil/tema3.md"
       - Robotica Articulada:         
             - Tema 1: "clases/robotica-articulada/tema1.md"
+            - Tema 2: "clases/robotica-articulada/tema2.md"
       - Proyectos de Ingenieria 1:   
             - Tema 1: "clases/proyectos-ingenieria-1/tema1.md"
       - Introduccion a la mecatronica: 
