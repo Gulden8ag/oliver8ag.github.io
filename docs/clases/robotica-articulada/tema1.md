@@ -4,7 +4,7 @@
 
 
 ```bash
-mkdir folder_proyecto\src # Dentro de src donde se ubicarán los paquetes ROS2
+mkdir -p folder_proyecto\src # Dentro de src donde se ubicarán los paquetes ROS2
 cd folder_proyecto/src 
 ros2 pkg create --build-type ament_python mi_robot #Se crea un paquete de ROS2 mi_robot con soporte para Python.
 ```
@@ -253,9 +253,9 @@ import os
 import xacro  # Para procesar archivos .xacro a URDF válido
 
 def generate_launch_description():
-    # Construye la ruta completa al archivo Xacro dentro del paquete 'my_robot'
+    # Construye la ruta completa al archivo Xacro dentro del paquete 'mi_robot'
     urdf_file = os.path.join(
-        get_package_share_directory('my_robot'),  # Encuentra la ruta compartida del paquete
+        get_package_share_directory('mi_robot'),  # Encuentra la ruta compartida del paquete
         'urdf',
         'robot.urdf.xacro'                       # Nombre del archivo Xacro
     )
@@ -312,7 +312,7 @@ import os
 from glob import glob  # Permite buscar múltiples archivos con comodines
 
 # Nombre del paquete (debe coincidir con la carpeta principal)
-package_name = 'my_robot'
+package_name = 'mi_robot'
 
 # Configuración principal del paquete
 setup(
@@ -361,7 +361,7 @@ Es utilizado por herramientas como `colcon`, `rosdep` y `ros2 launch` para enten
             schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3"> <!-- Versión del formato del archivo de paquete -->
 
-  <name>my_robot</name>        <!-- Nombre del paquete (debe coincidir con la carpeta) -->
+  <name>mi_robot</name>        <!-- Nombre del paquete (debe coincidir con la carpeta) -->
   <version>0.0.0</version>     <!-- Versión del paquete -->
   <description>TODO: Package description</description> <!-- Descripción (debe reemplazarse) -->
 
@@ -411,7 +411,7 @@ source install/setup.bash
 ## Paso 8 Correr el launch de nuestro robot
 
 ```bash
-ros2 launch my_robot display.launch.py
+ros2 launch mi_robot display.launch.py
 ```
 ## Paso 9 Opcional abrir la terminal para leer los datos de matriz
 
